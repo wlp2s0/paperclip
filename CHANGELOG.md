@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add support for actix-web-macros methods routing [PR#289](https://github.com/wafflespeanut/paperclip/pull/289)
 
 ### Changed
+- Actix plugin: `#[api_v2_errors]` macro now supports adding different error schemes per response code.
 
 ### Fixed
 - Optional type aliases like `type Email = Option<String>` will not be added to the `required` fields.
