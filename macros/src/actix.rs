@@ -1519,7 +1519,7 @@ impl super::Method {
     }
 }
 
-#[macro_use]
+#[cfg(feature = "actix")]
 macro_rules! rest_methods {
     (
         $($variant:ident, $method:ident, )+

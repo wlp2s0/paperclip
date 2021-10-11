@@ -10,7 +10,7 @@ Paperclip offers tooling for the [OpenAPI specification](https://github.com/OAI/
 - Support for processing, validating and hosting OpenAPI spec.
 - Customization for spec and code generation.
 
-It's currently under active development and may not be ready for production use just yet.
+It's currently under active development.
 
 You may be interested in:
 
